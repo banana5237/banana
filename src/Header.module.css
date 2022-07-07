@@ -1,8 +1,14 @@
 .container {
+  width: 772px;
+  height: 100px;
+  background-color: rgba(73, 50, 32, 0.8);
+  color: aliceblue;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 48px 0;
+  padding: 48px 16px;
+  z-index: 10;
 }
 
 .siteName {

@@ -1,3 +1,19 @@
+.body {
+  padding: 100px 0 0 0;
+  font-family: 'bananaslip plus';
+}
+
+.top{
+  display: flex;
+  justify-content: space-between
+}
+
+.name{
+  font-size: 100px;
+}
+
+
+
 .container {
   min-height: 100vh;
   display: flex;
