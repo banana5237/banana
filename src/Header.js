@@ -3,10 +3,10 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <header className={styles.container}>
-      <h1 className={styles.siteName}>
-        <a href="/">My Site</a>
-      </h1>
       <ul className={styles.nav}>
+      <h1 className={styles.siteName}>
+        <a href="./Top.js">My Site</a>
+      </h1>
         <li className={styles.navItem}>
           <a href="/">About</a>
         </li>
