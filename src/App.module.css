@@ -1,27 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 .body {
-  padding: 10vw 3vw;
+  padding: 8vw 3vw;
   font-family: 'Yusei Magic', sans-serif;
-  display: flex;
   justify-content: space-between;
-}
-
-.top{
-  width: 50vw;
-  height: 50vw;
-}
-
-.name{
-  font-size: 7vw;
+  background-image: url("../public/back.png");
+  background-repeat: repeat-y;
+  background-size: 100vw;
 }
 
 .container {
-  min-height: 100vh;
+  min-height: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #282c34;
+  background-color: #333333;
   color: white;
 }
 
@@ -42,4 +35,35 @@
 
 .profile{
   line-height: 1.7;
+}
+
+.about_title{
+  font-size: 5vw;
+  text-align: center;
+  margin: 3vw 0;
+}
+
+.about_image{
+  width: 50vw;
+  padding: 0 10vw;
+}
+
+.about{
+  display: flex;
+}
+
+.about_name{
+  width: 30vw;
+  margin-right: 10vw;
+  font-size: 3vw;
+  text-align: center;
+  border-bottom: dashed 2px #6594e0;
+}
+
+.about_honbun{
+  padding-top: 2vw;
+  font-size: 2vw;
+  text-align: center;
+  padding-right: 10vw;
+  line-height: 4vw;
 }

@@ -2,21 +2,20 @@
 
 .container {
   font-family: 'Yusei Magic', sans-serif;
-  width: 100vw;
-  height: 5vw;
-  background-color: rgba(73, 50, 32, 0.8);
-  color: aliceblue;
+  width: 94%;
+  height: 4vw;
+  color: #333333;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 3vw;
-  padding: 5vw 3vw;
+  padding: 4vw 3vw;
   z-index: 10;
 }
 
 .siteName {
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
   margin-right: 32px;
 }
@@ -33,7 +32,6 @@
 }
 
 .social {
-  margin-right: 16px;
   width: 5vw;
   height: 5vw;
 }

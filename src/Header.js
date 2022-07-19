@@ -1,18 +1,25 @@
-import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Work from "./Work";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path={`/`} element={<Home />} />
-      <Route path={`/About/`} element={<About />} />
-      <Route path={`/Work/`} element={<Work />} />
-    </Routes>
-  </BrowserRouter>
+    <header className={styles.container}>
+      <ul className={styles.nav}>
+        <h1 className={styles.siteName}>
+        <a href="/">My Site</a>
+        </h1>
+        <li className={styles.navItem}>
+          <a href="/">About</a>
+        </li>
+        <li className={styles.navItem}>
+          <a href="/">Works</a>
+        </li>
+      </ul>
+      <div className={styles.social}>
+        <a href="https://github.com/banana5237" target="_blank" rel="noreferrer">
+          <img alt="GitHub" src="/GitHub.png" />
+        </a>
+      </div>
+    </header>
   );
 };
 
